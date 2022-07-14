@@ -13,7 +13,7 @@ body {
   justify-content: center;
   width: 560px;
   height: 500px;
-  background: radial-gradient(rgb(1, 76, 189), rgb(26, 0, 143));
+  background: radial-gradient(rgb(0, 102, 255), rgba(50, 7, 245, 0.692));
   border-radius: 50px;
   box-shadow: 0 0 40px rgb(0, 22, 94);
 }

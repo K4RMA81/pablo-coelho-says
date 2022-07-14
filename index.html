@@ -18,10 +18,25 @@
         sint explicabo labore quasi nobis sed recusandae doloremque, adipisci a,
         esse repellendus.
       </div>
-
       <h3>Pablo Coelho</h3>
 
-      <script></script>
+      <script>
+        document.getElementsByClassName;
+        function random() {
+          const options = { method: "GET" };
+
+          fetch("http://localhost:8000/api/", options)
+            .then((response) => response.json())
+            .then(
+              (response) =>
+                (document.getElementsByClassName("frase")[0].innerHTML =
+                  response.description)
+            )
+            .catch((err) => console.error(err));
+        }
+
+        random();
+      </script>
     </div>
   </body>
 </html>
