@@ -12,10 +12,11 @@ body {
   align-items: center;
   justify-content: center;
   width: 560px;
-  height: 500px;
   background: radial-gradient(rgb(0, 102, 255), rgba(50, 7, 245, 0.692));
   border-radius: 50px;
   box-shadow: 0 0 40px rgb(0, 22, 94);
+  height: fit-content;
+  min-height: 600px;
 }
 
 .avatar {
@@ -30,4 +31,13 @@ body {
 .frase {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin: 0 80px;
+  text-align: center;
+  text-shadow: 20px;
+  font-style: oblique  ;
+  font-style: italic  ;
+  font-size:larger
+  
+}
+h3{
+  margin-top: 80%;
 }
